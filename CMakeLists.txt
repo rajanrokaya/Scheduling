@@ -1,0 +1,66 @@
+cmake_minimum_required(VERSION 3.23)
+project(Scheduling)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(.)
+include_directories(.idea)
+include_directories(Debug)
+include_directories(x64)
+
+add_executable(Scheduling
+        .idea/.gitignore
+        .idea/misc.xml
+        .idea/modules.xml
+        .idea/Scheduling.iml
+        .idea/workspace.xml
+        Debug/Scheduling.tlog/CL.command.1.tlog
+        Debug/Scheduling.tlog/CL.read.1.tlog
+        Debug/Scheduling.tlog/CL.write.1.tlog
+        Debug/Scheduling.tlog/link.command.1.tlog
+        Debug/Scheduling.tlog/link.delete.1.tlog
+        Debug/Scheduling.tlog/link.read.1.tlog
+        Debug/Scheduling.tlog/link.write.1.tlog
+        Debug/Scheduling.tlog/Scheduling.lastbuildstate
+        Debug/core.obj
+        Debug/dispatcher.obj
+        Debug/log.obj
+        Debug/main.obj
+        Debug/processcontrol.obj
+        Debug/processcontrol.obj.enc
+        Debug/scheduler.obj
+        Debug/Scheduling.Build.CppClean.log
+        Debug/Scheduling.exe
+        Debug/Scheduling.exe.recipe
+        Debug/Scheduling.ilk
+        Debug/Scheduling.log
+        Debug/Scheduling.pdb
+        Debug/Scheduling.vcxproj.FileListAbsolute.txt
+        Debug/simruntime.obj
+        Debug/simruntime.obj.enc
+        Debug/vc142.idb
+        Debug/vc142.pdb
+        x64/Debug/Scheduling.Build.CppClean.log
+        x64/Debug/Scheduling.exe.recipe
+        x64/Debug/Scheduling.log
+        x64/Debug/Scheduling.vcxproj.FileListAbsolute.txt
+        bs_types.h
+        core.c
+        core.h
+        dispatcher.c
+        dispatcher.h
+        globals.h
+        log.c
+        log.h
+        main.c
+        processcontrol.c
+        processcontrol.h
+        processes.txt
+        scheduler.c
+        scheduler.h
+        Scheduling.sln
+        Scheduling.vcxproj
+        Scheduling.vcxproj.filters
+        Scheduling.vcxproj.user
+        simruntime.c
+        simruntime.h)
